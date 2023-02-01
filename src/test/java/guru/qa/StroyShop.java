@@ -2,18 +2,14 @@ package guru.qa;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class Mvideo {
-
+public class StroyShop {
     @BeforeEach
     void setUp() {
 
@@ -23,25 +19,25 @@ public class Mvideo {
     }
 
     @CsvSource({
-            "телевизоры, телевизор",
-            "сетевые фильтры, сетевой фильтр",
-            "кофемашины, кофемашина"
+            "кирпич, кирпич",
+            "кабель ввг нг 3х2 5, кабель ввг",
+            "стусло, стусло"
 
     })
 
     @ParameterizedTest(name = "Продукт {1} должен появится при наборе {0}")
     void simpleTestProductsInDNS(
 
-            String Category,
+            String StroyMat,
             String WhatIsThere
 
     ) {
 
-        open("https://www.mvideo.ru/");
+        open("https://moscow.petrovich.ru");
 
-        $("div.input__container").click();
-        $("div.input__container").$("input.input__field").setValue(Category).pressEnter();
-        $("product-cards-layout").find(byText(WhatIsThere));
+        $("input.header-search-input").click();
+        $("input.header-search-input").setValue(StroyMat).pressEnter();
+        $(".product-list").find(byText(WhatIsThere));
 
     }
 }
