@@ -4,6 +4,7 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
@@ -18,26 +19,20 @@ public class StroyShop {
 
     }
 
-    @CsvSource({
-            "кирпич, кирпич",
-            "кабель ввг нг 3х2 5, кабель ввг",
-            "стусло, стусло"
 
-    })
+    @ValueSource(
+            strings = {"Стройматериалы", "Инструмент", "Электрика", "Инженерные системы", "Интерьер и отделка"}
+    )
 
-    @ParameterizedTest(name = "Продукт {1} должен появится при наборе {0}")
+    @ParameterizedTest()
     void simpleTestProductsInDNS(
 
-            String StroyMat,
             String WhatIsThere
 
     ) {
 
         open("https://moscow.petrovich.ru");
-
-        $("input.header-search-input").click();
-        $("input.header-search-input").setValue(StroyMat).pressEnter();
-        $(".product-list").find(byText(WhatIsThere));
+        $("div.subheader-content").find(byText(WhatIsThere));
 
     }
 }

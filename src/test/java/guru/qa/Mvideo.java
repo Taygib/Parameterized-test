@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 
 import static com.codeborne.selenide.Condition.text;
@@ -22,12 +23,8 @@ public class Mvideo {
 
     }
 
-    @CsvSource({
-            "телевизоры, телевизор",
-            "сетевые фильтры, сетевой фильтр",
-            "кофемашины, кофемашина"
 
-    })
+    @CsvFileSource(resources = "/TestDataMvideo.csv" )
 
     @ParameterizedTest(name = "Продукт {1} должен появится при наборе {0}")
     void simpleTestProductsInDNS(
