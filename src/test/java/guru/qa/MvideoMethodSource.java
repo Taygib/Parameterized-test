@@ -53,11 +53,6 @@ public class MvideoMethodSource {
         $$("div.plp__collections-container").shouldHave(texts(buttons));
 
 
-
-       // $$("div.ds2-model-menu").find(text(razdel.name())).click();
-
-        //$$("div.columns").shouldHave(CollectionCondition.texts(buttons));
-
     }
 
 
