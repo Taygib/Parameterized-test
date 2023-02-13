@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guru.qa.MvideoMethodSource" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-02-13T21:16:42" hostname="LAPTOP-57D3LCEV" time="9.527">
+  <properties/>
+  <testcase name="Для раздела Телевизоры отображается подраздел [LG NanoCell58 белые19 70 дюймов10 22 дюйма 24 дюйма22 28 дюймов2 32 дюйма102 43 дюйма111 49 дюймов Eщё]" classname="guru.qa.MvideoMethodSource" time="7.98">
+    <failure message="Texts mismatch&#13;&#10;Actual: [LG NanoCell56&#10;белые19&#10;70 дюймов10&#10;22 дюйма&#10;24 дюйма23&#10;28 дюймов2&#10;32 дюйма100&#10;43 дюйма112&#10;49 дюймов&#10;Eщё]&#13;&#10;Expected: [LG NanoCell58 белые19 70 дюймов10 22 дюйма 24 дюйма22 28 дюймов2 32 дюйма102 43 дюйма111 49 дюймов Eщё]&#13;&#10;Collection: div.plp__collections-container&#13;&#10;Screenshot: file:/C:/Users/nfsmw/IdeaProjects/qa_guru_junit/build/reports/tests/1676323010123.0.png&#13;&#10;Page source: file:/C:/Users/nfsmw/IdeaProjects/qa_guru_junit/build/reports/tests/1676323010123.0.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.TextsMismatch">Texts mismatch
+Actual: [LG NanoCell56
+белые19
+70 дюймов10
+22 дюйма
+24 дюйма23
+28 дюймов2
+32 дюйма100
+43 дюйма112
+49 дюймов
+Eщё]
+Expected: [LG NanoCell58 белые19 70 дюймов10 22 дюйма 24 дюйма22 28 дюймов2 32 дюйма102 43 дюйма111 49 дюймов Eщё]
+Collection: div.plp__collections-container
+Screenshot: file:/C:/Users/nfsmw/IdeaProjects/qa_guru_junit/build/reports/tests/1676323010123.0.png
+Page source: file:/C:/Users/nfsmw/IdeaProjects/qa_guru_junit/build/reports/tests/1676323010123.0.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.collections.ExactTexts.fail(ExactTexts.java:66)
+	at app//com.codeborne.selenide.ElementsCollection.waitUntil(ElementsCollection.java:197)
+	at app//com.codeborne.selenide.ElementsCollection.should(ElementsCollection.java:142)
+	at app//com.codeborne.selenide.ElementsCollection.shouldHave(ElementsCollection.java:116)
+	at app//guru.qa.MvideoMethodSource.mvideoRazdel(MvideoMethodSource.java:53)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.6/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:92)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:226)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:204)
+	at app//org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:139)
+	at app//org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$2(TestTemplateTestDescriptor.java:107)
+	at java.base@17.0.6/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base@17.0.6/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base@17.0.6/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base@17.0.6/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base@17.0.6/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base@17.0.6/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.6/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base@17.0.6/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base@17.0.6/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base@17.0.6/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base@17.0.6/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base@17.0.6/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base@17.0.6/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base@17.0.6/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base@17.0.6/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base@17.0.6/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base@17.0.6/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base@17.0.6/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@17.0.6/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at app//org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:107)
+	at app//org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:42)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.6/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.6/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.6/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="Для раздела Ноутбуки отображается подраздел [мощные503 тонкие38 MacBook Air (2020)6 Apple MacBook (2022)151 apple macbook 202112 MacBook Pro 13 (2020)12 для бизнеса32 Eщё]" classname="guru.qa.MvideoMethodSource" time="1.546"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\nfsmw\IdeaProjects\qa_guru_junit\build\downloads\1676323002443_40120_1
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using operadriver 109.0.5414.120 (resolved driver for Opera 95)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.opera.driver as C:\Users\nfsmw\.cache\selenium\operadriver\win64\109.0.5414.120\operadriver.exe
+Starting OperaDriver 109.0.5414.120 (168eebf2055fd26ca8c71787b7b3f9fe7c90d13d-refs/branch-heads/5414@{#1459}) on port 55280
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping OperaDriver safe.
+OperaDriver was started successfully.
+февр. 14, 2023 12:16:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[Test worker] INFO com.codeborne.selenide.webdriver.CdpClient - Downloading files to C:\Users\nfsmw\IdeaProjects\qa_guru_junit\build\downloads\1676323002443_40120_1
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from PT10S to PT10S
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from PT1M30S to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=opera Version=109.0.5414.120 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.3.5
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.1.2 build revision: 9a5a329c5a
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: OperaDriver -> OperaDriver: opera on WINDOWS (d03588c5ecf61089353f99211272951a)
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> OperaDriver: opera on WINDOWS (d03588c5ecf61089353f99211272951a), null
+]]></system-err>
+</testsuite>
