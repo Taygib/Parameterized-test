@@ -17,7 +17,7 @@ compileJava.options.encoding = "UTF-8"
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
-    testImplementation 'com.codeborne:selenide:6.11.1'
+    testImplementation 'com.codeborne:selenide:6.3.5'
     testImplementation 'org.slf4j:slf4j-simple:2.0.6'
     }
 
